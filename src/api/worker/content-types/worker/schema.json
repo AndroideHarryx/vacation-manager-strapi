@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "workers",
+  "info": {
+    "singularName": "worker",
+    "pluralName": "workers",
+    "displayName": "worker"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "worker_mail": {
+      "type": "email"
+    },
+    "worker_name": {
+      "type": "string"
+    },
+    "start_date": {
+      "type": "date"
+    },
+    "pending_vacation": {
+      "type": "boolean"
+    },
+    "worker_ci": {
+      "type": "integer"
+    },
+    "team_work": {
+      "type": "string"
+    }
+  }
+}
